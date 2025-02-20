@@ -1,6 +1,6 @@
 import streamlit as st
 
-GENDER = "boy"  # change to "boy" if needed 
+GENDER = "TBD"  # pick "boy" or "girl" once we know
 
 if "gender" not in st.session_state:
     st.session_state.gender = "None"
@@ -21,4 +21,6 @@ if gender_button:
         st.markdown("""# :heartpulse: :violet[GIRL!!!!!] :heartpulse:""")
     elif st.session_state.gender == "boy":
         st.markdown("""# :blue_heart: :blue[BOY!!!!!] :blue_heart:""")
+    else:
+        st.markdown("""# we still don't know""")
     st.balloons()
