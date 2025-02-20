@@ -1,6 +1,6 @@
 import streamlit as st
 
-GENDER = "TBD"  # pick "boy" or "girl" once we know
+GENDER = "boy"  # pick "boy" or "girl" once we know
 
 if "gender" not in st.session_state:
     st.session_state.gender = "None"
