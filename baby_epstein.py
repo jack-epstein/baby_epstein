@@ -14,7 +14,7 @@ if "gender" not in st.session_state:
 st.markdown("# :grey[Baby Epstein is a ...]")
 st.markdown("# 🤰🏻")
 
-gender_button = st.button("Click here to see")
+gender_button = st.button(":grey[Click here to see]")
 
 if gender_button:
     st.session_state.gender = GENDER
