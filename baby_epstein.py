@@ -10,10 +10,10 @@ if st.session_state.gender == "girl":
 elif st.session_state.gender == "boy":
     st.markdown("# :blue[Baby Epstein is a ...]")
 else:
-    st.markdown("# :Baby Epstein is a ...")
+    st.markdown("# Baby Epstein is a ...")
 st.markdown("# 🤰🏻")
 
-gender_button = st.button(":grey[Click here to see]")
+gender_button = st.button("Click here to see")
 
 if gender_button:
     st.session_state.gender = GENDER
