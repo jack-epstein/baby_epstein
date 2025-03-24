@@ -1,6 +1,6 @@
 import streamlit as st
 
-GENDER = "boy"  # pick "boy" or "girl" once we know
+GENDER = "boy"  # updated this at the doctor's office
 
 if "gender" not in st.session_state:
     st.session_state.gender = "None"
